@@ -31,17 +31,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Streamlit Community Cloud Deployment
-
-1. Push this project to GitHub.
-2. Go to Streamlit Community Cloud.
-3. Create a new app.
-4. Select your repository and branch.
-5. Set the main file path to `app.py`.
-6. Deploy the app.
-
-Note: `model.safetensors` is a large file. If GitHub rejects it, use Git LFS or another supported model-hosting approach.
-
 ## User App Structure
 
 1. Home page with the purpose of the screening tool.
